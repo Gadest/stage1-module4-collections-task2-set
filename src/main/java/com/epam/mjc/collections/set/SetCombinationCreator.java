@@ -1,7 +1,6 @@
 package com.epam.mjc.collections.set;
 
 import java.util.HashSet;
-import java.util.NavigableSet;
 import java.util.Set;
 
 public class SetCombinationCreator {
@@ -16,7 +15,6 @@ combine.addAll(firstSet);
                result.add(s);
             }
         }
-
         for (String s:
              thirdSet) {
             if (result.contains(s)==true ||secondSet.contains(s)==true || firstSet.contains(s)==true){
